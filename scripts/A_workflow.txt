@@ -1,0 +1,5 @@
+1.	Download ct_rate_download in batches
+2.	Convert text
+3.	Convert nii to npy in batches
+4.	Upload to Hugging Face
+5.	Delete files in train and converted, then move those from train_extra into train
