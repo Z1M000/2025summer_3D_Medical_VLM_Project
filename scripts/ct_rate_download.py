@@ -14,7 +14,7 @@ count = 1
 
 repo_id = 'ibrahimhamamci/CT-RATE'
 directory_name = f'dataset/{split}/'
-hf_token = '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'
+hf_token = os.getenv("HUGGINGFACE_HUB_TOKEN")
 
 # data = pd.read_csv('../data/ct_rate_raw/train_predicted_labels.csv')
 current_dir = os.path.dirname(os.path.abspath(__file__))
