@@ -1,3 +1,5 @@
+# credit to the ct rate team for providing the download script
+
 import shutil
 
 import pandas as pd
