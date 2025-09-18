@@ -4,11 +4,12 @@ import shutil
 
 import pandas as pd
 import os
+from dotenv import load_dotenv
 
 from huggingface_hub import hf_hub_download
 from tqdm import tqdm
 
-
+load_dotenv()
 split = 'train'
 batch_size = 0
 start_at = 10672 #下次从train5001 是11805开始
